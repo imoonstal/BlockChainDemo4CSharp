@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part7-proof-of-work", "part
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part8-proof-of-work", "part8-proof-of-work\part8-proof-of-work.csproj", "{324D4723-32A8-489A-BF4D-EB2731EC306A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part9-Serialize-DeserializeBlock", "part9-Serialize-DeserializeBlock\part9-Serialize-DeserializeBlock.csproj", "{F60F20FB-F18A-41AF-96DE-B036F5EC7A63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{324D4723-32A8-489A-BF4D-EB2731EC306A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{324D4723-32A8-489A-BF4D-EB2731EC306A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{324D4723-32A8-489A-BF4D-EB2731EC306A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60F20FB-F18A-41AF-96DE-B036F5EC7A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60F20FB-F18A-41AF-96DE-B036F5EC7A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60F20FB-F18A-41AF-96DE-B036F5EC7A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60F20FB-F18A-41AF-96DE-B036F5EC7A63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
