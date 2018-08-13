@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part8-proof-of-work", "part
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part9-Serialize-DeserializeBlock", "part9-Serialize-DeserializeBlock\part9-Serialize-DeserializeBlock.csproj", "{F60F20FB-F18A-41AF-96DE-B036F5EC7A63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part10-13-LevelDB", "part10-13-LevelDB\part10-13-LevelDB.csproj", "{689FA29B-98EE-4B5D-BADB-4297A7F443DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F60F20FB-F18A-41AF-96DE-B036F5EC7A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F60F20FB-F18A-41AF-96DE-B036F5EC7A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F60F20FB-F18A-41AF-96DE-B036F5EC7A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689FA29B-98EE-4B5D-BADB-4297A7F443DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689FA29B-98EE-4B5D-BADB-4297A7F443DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689FA29B-98EE-4B5D-BADB-4297A7F443DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689FA29B-98EE-4B5D-BADB-4297A7F443DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
