@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part10-13-LevelDB", "part10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part14-block-leveldb", "part14-block-leveldb\part14-block-leveldb.csproj", "{C09B53F9-DFA3-4704-96FF-DEAE48576870}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part15-persistence-creategenesisblock", "part15-persistence-creategenesisblock\part15-persistence-creategenesisblock.csproj", "{D5F963C9-A3FC-4D93-90FB-C7CD80A3AAEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{C09B53F9-DFA3-4704-96FF-DEAE48576870}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C09B53F9-DFA3-4704-96FF-DEAE48576870}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C09B53F9-DFA3-4704-96FF-DEAE48576870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F963C9-A3FC-4D93-90FB-C7CD80A3AAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F963C9-A3FC-4D93-90FB-C7CD80A3AAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F963C9-A3FC-4D93-90FB-C7CD80A3AAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F963C9-A3FC-4D93-90FB-C7CD80A3AAEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
