@@ -46,10 +46,9 @@ namespace BLC
 
                 this.Tip = genesisBlock.Hash;
                 this.Db = db;
-            }
-            finally
+            }catch(Exception ex)
             {
-                db.Dispose();
+                Console.WriteLine($"创建区块链失败,{ex.Message}");
             }
         }
 
@@ -59,18 +58,10 @@ namespace BLC
         /// <param name="data"></param>
         public void AddBlockToBlockchain(string data)
         {
-            DB db = null;
             try
             {
-                try
-                {
-                    db = DB.Open(Utils.CurrentPath + Utils.DbName, new Options { CreateIfMissing = true });
-                }
-                catch (Exception ex)
-                {
-                    throw new Exception($"AddBlockToBlockchain:打开数据库失败,{ex.Message}");
-                }
                 //1. 获取表
+                var db = this.Db;
                 //2. 创建新区块
 
                 // ⚠️，先获取最新区块
@@ -88,10 +79,6 @@ namespace BLC
             catch (Exception ex)
             {
                 Console.WriteLine($"AddBlockToBlockchain:添加区块失败,{ex.Message}");
-            }
-            finally
-            {
-                db.Dispose();
             }
         }
 
