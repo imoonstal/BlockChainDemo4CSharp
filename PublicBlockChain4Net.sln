@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part14-block-leveldb", "par
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part15-persistence-creategenesisblock", "part15-persistence-creategenesisblock\part15-persistence-creategenesisblock.csproj", "{D5F963C9-A3FC-4D93-90FB-C7CD80A3AAEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part16-persistence-addblock", "part16-persistence-addblock\part16-persistence-addblock.csproj", "{6D6A7089-EDC7-4D71-A8CB-C501E6B699FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{D5F963C9-A3FC-4D93-90FB-C7CD80A3AAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5F963C9-A3FC-4D93-90FB-C7CD80A3AAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5F963C9-A3FC-4D93-90FB-C7CD80A3AAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6A7089-EDC7-4D71-A8CB-C501E6B699FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6A7089-EDC7-4D71-A8CB-C501E6B699FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6A7089-EDC7-4D71-A8CB-C501E6B699FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6A7089-EDC7-4D71-A8CB-C501E6B699FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

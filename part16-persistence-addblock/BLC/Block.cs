@@ -7,7 +7,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace part9_Serialize_DeserializeBlock.BLC
+namespace BLC
 {
     /// <summary>
     /// 区块类

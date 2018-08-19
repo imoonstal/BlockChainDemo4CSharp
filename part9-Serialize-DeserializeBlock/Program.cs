@@ -12,16 +12,15 @@ namespace part9_Serialize_DeserializeBlock
         static void Main(string[] args)
         {
             //创建一个区块
-            var block = new Block("Test", 1, new byte[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 });
-            Console.WriteLine(block.Nonce);
-            Console.WriteLine(Utils.SHA256byteArr2String(block.Hash));
+            var block = new Block("这是一个创世区块", 1, new byte[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 });
+            Console.WriteLine(block);
 
             var bytes = block.SerializeBlock();
             Console.WriteLine(Utils.SHA256byteArr2String(bytes));
 
+
             block = Block.DeserializeBlock(bytes);
-            Console.WriteLine(block.Nonce);
-            Console.WriteLine(Utils.SHA256byteArr2String(block.Hash));
+            Console.WriteLine(block);
 
 
             Console.ReadLine();
