@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part16-persistence-addblock
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part17-18-persistence-Iterator", "part17-18-persistence-Iterator\part17-18-persistence-Iterator.csproj", "{B7F53D5F-CBBA-4E5F-8092-4B195A2BBD95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part19-20-persistence-Iterator-separate", "part19-20-persistence-Iterator-separate\part19-20-persistence-Iterator-separate.csproj", "{1EE80624-409F-4A0B-A93D-8C4C48FD3FD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{B7F53D5F-CBBA-4E5F-8092-4B195A2BBD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7F53D5F-CBBA-4E5F-8092-4B195A2BBD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7F53D5F-CBBA-4E5F-8092-4B195A2BBD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE80624-409F-4A0B-A93D-8C4C48FD3FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE80624-409F-4A0B-A93D-8C4C48FD3FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE80624-409F-4A0B-A93D-8C4C48FD3FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE80624-409F-4A0B-A93D-8C4C48FD3FD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
