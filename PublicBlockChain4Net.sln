@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part17-18-persistence-Itera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part19-20-persistence-Iterator-separate", "part19-20-persistence-Iterator-separate\part19-20-persistence-Iterator-separate.csproj", "{1EE80624-409F-4A0B-A93D-8C4C48FD3FD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part21-23-cil", "part21-23-cil\part21-23-cil.csproj", "{70248959-9264-4C6F-A079-9F3153CBE03F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{1EE80624-409F-4A0B-A93D-8C4C48FD3FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EE80624-409F-4A0B-A93D-8C4C48FD3FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EE80624-409F-4A0B-A93D-8C4C48FD3FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70248959-9264-4C6F-A079-9F3153CBE03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70248959-9264-4C6F-A079-9F3153CBE03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70248959-9264-4C6F-A079-9F3153CBE03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70248959-9264-4C6F-A079-9F3153CBE03F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
