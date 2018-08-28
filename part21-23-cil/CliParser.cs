@@ -46,7 +46,7 @@ namespace part21_23_cil
             cmds.ForEach(cmd =>
             {
                 var n = argList.IndexOf(cmd);
-                if (n != -1)
+                if (n >= 0)
                     list.Add(new CmdIndex { Cmd = cmd, Index = n });
             });
             list.Sort();
@@ -79,6 +79,11 @@ namespace part21_23_cil
                 cmds.Remove(cmd);
         }
 
+        /// <summary>
+        /// 解析
+        /// </summary>
+        /// <param name="cmd"></param>
+        /// <returns></returns>
         public static object Parse(string cmd)
         {
             if (!cmdObj.ContainsKey(cmd))
@@ -86,13 +91,41 @@ namespace part21_23_cil
             switch (cmd)
             {
                 case "addblock":
-                    return cmdObj[cmd][2];
+                    return Parse_addblock(cmdObj[cmd]);
                 case "printchain":
-                    return cmdObj[cmd][1];
+                    return Parse_printchain(cmdObj[cmd]);
                 default:
                     return "";
             }
         }
+
+        #region 命令解析方法
+        /// <summary>
+        /// addblock命令解析方法
+        /// </summary>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        static object Parse_addblock(List<string> param)
+        {
+            if (param.Count > 2)
+                return param[2];
+            else
+                return "";
+        }
+
+        /// <summary>
+        /// printchain命令解析方法
+        /// </summary>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        static object Parse_printchain(List<string> param)
+        {
+            if (param.Count > 1)
+                return param[1];
+            else
+                return "";
+        }
+        #endregion
     }
 
     class CmdIndex : IComparable
