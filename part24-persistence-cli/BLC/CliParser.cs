@@ -106,12 +106,15 @@ namespace BLC
         /// </summary>
         /// <param name="param"></param>
         /// <returns></returns>
-        static object Parse_addblock(List<string> param)
+        static string Parse_addblock(List<string> param)
         {
             try
             {
                 if (param.Count > 2)
-                    return param[2];
+                    if (param[1] == "-data")
+                        return param[2];
+                    else
+                        return null;
                 else
                     return null;
             }
@@ -126,7 +129,7 @@ namespace BLC
         /// </summary>
         /// <param name="param"></param>
         /// <returns></returns>
-        static object Parse_printchain(List<string> param)
+        static bool Parse_printchain(List<string> param)
         {
             try
             {
