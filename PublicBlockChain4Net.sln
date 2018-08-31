@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part24-persistence-cli", "p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part25-persistence-cli-createblockchain", "part25-persistence-cli-createblockchain\part25-persistence-cli-createblockchain.csproj", "{4442E428-ADD1-47B4-8FAE-4CC01458AA76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part26-persistence-cli-modify-creategenesismethod", "part26-persistence-cli-modify-creategenesismethod\part26-persistence-cli-modify-creategenesismethod.csproj", "{BFDE2383-1846-4445-B964-3A52E384D09B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{4442E428-ADD1-47B4-8FAE-4CC01458AA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4442E428-ADD1-47B4-8FAE-4CC01458AA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4442E428-ADD1-47B4-8FAE-4CC01458AA76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDE2383-1846-4445-B964-3A52E384D09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDE2383-1846-4445-B964-3A52E384D09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDE2383-1846-4445-B964-3A52E384D09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDE2383-1846-4445-B964-3A52E384D09B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
