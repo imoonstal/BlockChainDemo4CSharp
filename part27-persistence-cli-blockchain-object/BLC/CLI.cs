@@ -10,44 +10,32 @@ namespace BLC
     {
         public void Run(string[] args)
         {
-            //1.先注册命令
-            CliParser.Register("addblock");
-            CliParser.Register("printchain");
-            CliParser.Register("createblockchain");
-            CliParser.InitCmd(args);
-
-            //2.解析命令
-            var addblock = CliParser.Parse("addblock");
-            if (null != addblock)
+            CliParser.IsValidArgs(args);
+            switch (args[0])
             {
-                if (!string.IsNullOrWhiteSpace(addblock.ToString()))
-                    AddBlock(addblock.ToString());
-                else
-                    Console.WriteLine("区块数据不能为空...");
-            }
-
-            var print = CliParser.Parse("printchain");
-            if (null != print)
-            {
-                if (Convert.ToBoolean(print))
-                    PrintBC();
-            }
-
-            if (args[0] == "createblockchain")
-            {
-                var createbc = CliParser.Parse("createblockchain");
-                if (null != createbc)
-                {
+                case "addblock":
+                    var addblock = CliParser.Parse_addblock(args);
+                    if (!string.IsNullOrWhiteSpace(addblock.ToString()))
+                        AddBlock(addblock.ToString());
+                    else
+                        Console.WriteLine("区块数据不能为空...");
+                    break;
+                case "printchain":
+                    var print = CliParser.Parse_printchain(args);
+                    if (Convert.ToBoolean(print))
+                        PrintBC();
+                    break;
+                case "createblockchain":
+                    var createbc = CliParser.Parse_createblockchain(args);
                     if (!string.IsNullOrWhiteSpace(createbc.ToString()))
                         CreateGenesisBlockchain(createbc.ToString());
                     else
-                        Console.WriteLine("区块数据不能为空...");
-                }
-                else
-                {
-                    //创建默认创世区块
-                    CreateGenesisBlockchain("Genesis data...");
-                }
+                        //创建默认创世区块
+                        CreateGenesisBlockchain("Genesis data...");
+                    break;
+                default:
+                    CliParser.PrintUsage();
+                    break;
             }
 
         }
