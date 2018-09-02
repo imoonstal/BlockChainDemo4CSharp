@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part26-persistence-cli-modi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part27-persistence-cli-blockchain-object", "part27-persistence-cli-blockchain-object\part27-persistence-cli-blockchain-object.csproj", "{97CFC72D-0E2C-403A-949A-E97495EE0F78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part28-transaction", "part28-transaction\part28-transaction.csproj", "{FE6784D6-2F9D-47BF-8206-368519D10950}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{97CFC72D-0E2C-403A-949A-E97495EE0F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97CFC72D-0E2C-403A-949A-E97495EE0F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97CFC72D-0E2C-403A-949A-E97495EE0F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6784D6-2F9D-47BF-8206-368519D10950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6784D6-2F9D-47BF-8206-368519D10950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6784D6-2F9D-47BF-8206-368519D10950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6784D6-2F9D-47BF-8206-368519D10950}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
