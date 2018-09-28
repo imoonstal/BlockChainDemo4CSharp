@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part29-transaction-UTXO", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part30-transaction-UTXO-send", "part30-transaction-UTXO-send\part30-transaction-UTXO-send.csproj", "{B491B4D9-95C5-45FE-AB23-94DDA114DACC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part31-transaction-UTXO-JSON-TO-Array", "part31-transaction-UTXO-JSON-TO-Array\part31-transaction-UTXO-JSON-TO-Array.csproj", "{50756C81-848B-461E-858D-1015D8A744F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{B491B4D9-95C5-45FE-AB23-94DDA114DACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B491B4D9-95C5-45FE-AB23-94DDA114DACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B491B4D9-95C5-45FE-AB23-94DDA114DACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50756C81-848B-461E-858D-1015D8A744F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50756C81-848B-461E-858D-1015D8A744F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50756C81-848B-461E-858D-1015D8A744F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50756C81-848B-461E-858D-1015D8A744F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
